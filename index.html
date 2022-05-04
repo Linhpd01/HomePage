@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
         <!--My CSS-->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css">
@@ -22,18 +23,16 @@
         <!--Notification-->
         <div class="notify d-none d-lg-block">
             <div class="container position-relative">
-                <div class=""> 
-                    <p class="title-notify text-light text-center text-uppercase">grab it before it's gone... sale's now up to 70% off</p>
-                </div>
+                <p class="title-notify text-center text-uppercase m-0">grab it before it's gone... sale's now up to 70% off</p>
                 <div class="close position-absolute">
-                    <button type="button" class="btn-close btn-close-white"  aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white p-0"  aria-label="Close"></button>
                 </div>
             </div>
         </div>
         <!--Start header-->
-        <header class="border-bottom border-secondary">
+        <header>
             <div class="container">
-                <div class="navbar navbar-expand-lg navbar-light">
+                <div class="navbar navbar-expand-lg navbar-light p-0">
                     <a class="navbar-brand" href="#">
                         <img src="img/logo.png" alt=""><span class="name-brand">eveland</span>
                     </a>
@@ -74,38 +73,43 @@
         <!--End header-->
         <!--Banner-->
         <section class="banner1">
-            <img src="img/banner1.jpg" alt="">
-            <div class="align-items-center container">
-                <div class="title-click position-absolute">
-                    <span class="badge text-muted">Collection 2030</span>
-                    <h1 class="">Basic Collection</h1>
-                    <p class="h4">Style destination</p>
-                    <button type="button" class="btn btn-danger text-light">SHOP NOW</button>
+            <div class="container fill-height">
+                <div class="row align-items-center fill-height">
+                    <div class="col p-0">
+                        <div class="d-flex align-items-center">
+                            <div class="divider"></div>
+                            <span>Collection<br>2030</span>
+                        </div>
+                        <h6>Basic Collection</h6>
+                        <p>Style destination</p>
+                        <button type="button" class="btn-shop-now">SHOP NOW</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container-fluid">
-                <div class="d-flex">
+        <section class="features">
+            <div class="container">
+                <div class="features-product d-flex">
                     <div class="model7">
                         <img src="img/model7.jpg" alt="">
+                        <p class="text-end">features.</p>
                     </div>
                     <div class="album-product">
-                        <div class="d-flex flex-nowrap gap-3">
+                        <div class="d-flex flex-nowrap">
                             <div class="product-item">
                                 <img src="img/sweater-green.jpg" alt="" >
-                                <p>pour over kettle in black</p>
-                                <p>$320.00</p>
+                                <p class="name-product">Pour over kettle in black</p>
+                                <p class="price">$320.00</p>
                             </div>
                             <div class="product-item">
                                 <img src="img/shoe2.jpg" alt="">
-                                <p>pour over kettle in black</p>
-                                <p>$320.00</p>
+                                <p class="name-product">Pour over kettle in black</p>
+                                <p class="price">$320.00</p>
                             </div>
-                            <div class="product-item">
+                            <div class="product-item p-0 ">
                                 <img src="img/coat1.jpg" alt="">
-                                <p>face cleansing cream</p>
-                                <p>$320.00</p>
+                                <p class="name-product">Face cleansing cream</p>
+                                <p class="price">$320.00</p>
                             </div>
                         </div>
                     </div>
@@ -114,12 +118,14 @@
         </section>
         <section>
             <div class="banner-bg d-flex align-items-center">
-                <div class="container ">
-                    <div class="title bg-light">
-                        <h1>Hinter.Conders</h1>
-                        <div class="d-flex">
-                            <span class="divider bg-dark mt-2"></span>
-                            <p class="">MANY OF MANY</p>
+                <div class="container fill-height">
+                    <div class="d-flex align-items-center fill-height">
+                        <div class="title d-flex flex-column">
+                            <h6>Hinter.Conders</h6>
+                            <div class="d-flex align-items-center">
+                                <div class="divider"></div>
+                                <p class="m-0">MANY OF MANY</p>
+                            </div>
                         </div>
                     </div>
                 </div>

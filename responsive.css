@@ -5,6 +5,9 @@
     header .container{
         max-width: 1640px;
     }
+    .features .container{
+        max-width: 1640px;
+    }
     .container{ 
         max-width: 1400px;
     }
