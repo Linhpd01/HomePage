@@ -53,19 +53,6 @@ header .name-brand{
 .album-product img{
     width: 100%;
 }
-.album-product .col-3{
-    padding: 0 40px 98px 0 !important;
-}
-.album-product{
-    background-image: url('img/bg-1.png');
-    background-size: cover;
-    height: 1505px;
-    background-position: center center;
-    padding-top: 75px;
-}
-.album-product h5{
-    padding-bottom: 80px;
-}
 /*album-model*/
 .album-model img:first-child{
     width: 100%;
@@ -84,6 +71,20 @@ header .name-brand{
 }
 .banner-bg .title{
     width:500px;
+}
+/*staff-pick*/
+.staff-pick .col-3{
+    padding: 0 40px 98px 0 !important;
+}
+.staff-pick{
+    background-image: url('img/bg-1.png');
+    background-size: cover;
+    height: 1505px;
+    background-position: center center;
+    padding-top: 75px;
+}
+.staff-pick h5{
+    padding-bottom: 80px;
 }
 /*work-it-out*/
 .work-it-out .free-shipping{
