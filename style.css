@@ -107,7 +107,7 @@ header .name-brand{
 }
 /*banner-bg*/
 .banner-bg{
-    height: 1000px;
+    height: 1022px;
     background-image: url('img/banner2.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -143,13 +143,13 @@ header .name-brand{
     width: 100%;
 }
 /*staff-pick*/
-.staff-pick .col-3{
-    padding: 0 40px 98px 0 !important;
+.staff-pick .product-item{
+    padding: 0 40px 98px 0;
 }
 .staff-pick{
     background-image: url('img/bg-1.png');
     background-size: cover;
-    height: 1505px;
+    height: 1620px;
     background-position: center center;
     padding-top: 75px;
 }
@@ -161,6 +161,12 @@ header .name-brand{
     border: 10px solid rgb(34, 34, 34);
     height: 300px;
     width: 548px;
+}
+.work-it-out .model10{
+    margin-top: -90px;
+}
+.work-it-out .red-shoe{
+    margin-top: -245px;
 }
 /*album-instagram*/
 .album-instagram{
